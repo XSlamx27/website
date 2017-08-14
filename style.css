@@ -88,7 +88,7 @@ overflow: hidden;
 padding: 200px 0;
 }
 #slide3{
-background: url("../Site/img/slide3.jpg") 50% 0 no-repeat fixed;
+background-color: #fff;
 height: 600px;
 padding: 170px 0 0 0;
 background-size: cover;
