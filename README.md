@@ -4,22 +4,7 @@
 	<head>welcome</head>
 	<body>
 
-		<ul class="menu">
-			<li><a href="#page-1">Page1</a></li>
-			<li><a href="#page-2">Page 2</a></li>
-		</ul>
-
-		<div id="page-1" class="sectionWrapper">
-			<div class="contentWrapper">
-				<!-- Contenu Page 1 -->
-			</div><!-- /contentWrapper -->
-		</div><!-- /sectionWrapper -->
-
-		<div id="page-2" class="sectionWrapper">
-			<div class="contentWrapper">
-				<!-- Contenu Page 2 -->
-			</div><!-- /contentWrapper -->
-		</div><!-- /sectionWrapper -->
+		
 
 	</body>
 </html>
