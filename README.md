@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
 
 <!DOCTYPE html>
 <html>
-	<head></head>
+	<head>welcome</head>
 	<body>
 
 		<ul class="menu">
