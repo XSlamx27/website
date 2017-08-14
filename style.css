@@ -34,7 +34,7 @@ position: relative;
 // header
 #header {
 width: 100%;
-background: url('../site/img/header-bg.png');
+background: url('../Site/img/header-bg.png');
 height: 80px;
 position: fixed;
 margin-top: 30px;
@@ -67,15 +67,15 @@ margin: 50px auto;
  .author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
  .author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
  .quotes_container { width: 800px; margin: 0 auto; }
-#christmas_tree { background: url('../site/img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
-#divider { background: url('../site/img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
-#ribbon { background: url('../site/img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto; display: block; position: relative; top: -38px; }
-#snowflakes1 { background: url('../site/img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -54px; left: -102px; }
-#snowflakes2 { background: url('../site/img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -33px; right: -100px; }
+#christmas_tree { background: url('../Site/img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
+#divider { background: url('../Site/img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
+#ribbon { background: url('../Site/img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto; display: block; position: relative; top: -38px; }
+#snowflakes1 { background: url('../Site/img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -54px; left: -102px; }
+#snowflakes2 { background: url('../Site/img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -33px; right: -100px; }
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-background:url('../site/img/slide1.jpg') 50% 0 no-repeat fixed;
+background:url('../Site/img/slide1.jpg') 50% 0 no-repeat fixed;
 height: 600px;
 margin: 0;
 padding: 200px 0 260px 0;
@@ -90,7 +90,7 @@ overflow: hidden;
 padding: 200px 0;
 }
 #slide3{
-background: url(../site/img/slide3.jpg) 50% 0 no-repeat fixed;
+background: url(../Site/img/slide3.jpg) 50% 0 no-repeat fixed;
 height: 600px;
 padding: 170px 0 0 0;
 background-size: cover;
@@ -101,7 +101,7 @@ height: 300px;
 padding: 200px 0;
 }
 #slide5{
-background: url(../site/img/slide5.jpg) 50% 0 no-repeat fixed;
+background: url(../Site/img/slide5.jpg) 50% 0 no-repeat fixed;
 height: 200px;
 margin: 0 auto;
 padding: 250px 0;
