@@ -88,21 +88,21 @@ margin: 0 auto;
 overflow: hidden;
 padding: 200px 0;
 	
-	#slide2 figure {
-		border: 3px solid #eee;
-		border-radius: 78px;
-		float: right;
-		height: 156px;
-		width: 156px;
+.CV figure {
+border: 3px solid #eee;
+border-radius: 78px;
+float: right;
+height: 156px;
+width: 156px;
 	}
 	
-	#slide2 figure img {
-		border-radius: 75px;
-		height: 150px;
-		position: relative;
-		width: 150px;
+.CV figure img {
+border-radius: 75px;
+height: 150px;
+position: relative;
+width: 150px;
 }
-}
+
 #slide3{
 background-color: #fff;
 height: 600px;
