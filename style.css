@@ -37,7 +37,7 @@ padding-left: 21px;
 
 #slide1{
 background:url("../website/Site/img/slide1.jpg ") 50% 0 no-repeat fixed;
-height: 300px;
+height: 200px;
 margin: 0;
 padding: 200px 0 260px 0;
 background-size: cover;
@@ -73,6 +73,7 @@ height: 600px;
 padding: 170px 0 0 0;
 background-size: cover;
 }
+
 #slide4{
 background-color: #fff;
 height: 300px;
