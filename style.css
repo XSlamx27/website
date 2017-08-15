@@ -40,7 +40,7 @@ position: fixed;
 margin-top: 30px;
 }
 #nav { width: 410px; float: right; margin-top: 20px; }
-#logo a { text-decoration: none; float: left; font-size: 30px; margin-top: 20px; font-weight: bold; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
 list-style: none;
 display: block;
@@ -52,7 +52,7 @@ margin-top: 9px;
 float: left;
 padding-left: 21px;
 }
-#nav li a { opacity:0.6; font-size: 16px; text-decoration: none; }
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1; }
 
