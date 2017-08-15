@@ -70,6 +70,11 @@ padding: 170px 0 0 0;
 background-size: cover;
 }
 
+#conteneur{
+display: flex;
+justify-content: space-around;
+}
+
 #slide4{
 background-color: #b7b7b7;
 height: 300px;
