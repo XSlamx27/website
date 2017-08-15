@@ -39,7 +39,7 @@ background-size: cover;
 }
 
 #slide2{
-background-color: ##999999;
+background-color: #b7b7b7;
 color: #333333;
 height: 600px;
 margin: 0 auto;
@@ -63,14 +63,14 @@ width: 150px;
 }
 
 #slide3{
-background-color: #fff;
+background-color: #999999;
 height: 600px;
 padding: 170px 0 0 0;
 background-size: cover;
 }
 
 #slide4{
-background-color: #999999;
+background-color: #b7b7b7;
 height: 300px;
 padding: 200px 0;
 }
