@@ -79,6 +79,21 @@ margin: 0;
 padding: 200px 0 260px 0;
 background-size: cover;
 }
+slide1 figure {
+		border: 3px solid #eee;
+		border-radius: 78px;
+		float: right;
+		height: 156px;
+		width: 156px;
+	}
+	
+	slide1 figure img {
+		border-radius: 75px;
+		height: 150px;
+		position: relative;
+		width: 150px;
+}
+
 #slide2{
 background-color: #fff;
 color: #333333;
