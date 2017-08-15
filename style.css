@@ -81,7 +81,7 @@ margin: 0 auto;
 overflow: hidden;
 padding: 200px 0;
 	
-.CV figure {
+figure {
 border: 3px solid #eee;
 border-radius: 78px;
 float: right;
@@ -89,7 +89,7 @@ height: 156px;
 width: 156px;
 	}
 	
-.CV figure img {
+figure img {
 border-radius: 75px;
 height: 150px;
 position: relative;
