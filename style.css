@@ -1,6 +1,5 @@
 
 
-// header
 #header {
 width: 100%;
 background-color: #b7b7b7;
@@ -9,6 +8,7 @@ height: 80px;
 position: fixed;
 margin-top: 30px;
 }
+
 #nav { width: 410px; float: right; margin-top: 20px; }
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
