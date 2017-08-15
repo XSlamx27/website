@@ -52,7 +52,7 @@ overflow: hidden;
 padding: 200px 0;
 }
 
-PhotoCV figure {
+.PhotoCV figure {
 border: 3px solid #eee;
 border-radius: 78px;
 float: right;
@@ -60,7 +60,7 @@ height: 156px;
 width: 156px;
 	}
 	
-PhotoCV img {
+.PhotoCV img {
 border-radius: 75px;
 height: 150px;
 position: relative;
