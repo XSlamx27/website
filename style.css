@@ -74,6 +74,9 @@ background-size: cover;
 display: flex;
 justify-content: space-around;
 }
+.image{
+margin: auto;
+}
 
 #slide4{
 background-color: #b7b7b7;
