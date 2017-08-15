@@ -73,6 +73,7 @@ background-size: cover;
 #conteneur{
 display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 .image{
 margin: auto;
