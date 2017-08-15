@@ -33,9 +33,8 @@ padding-left: 21px;
 
 #slide1{
 background:url("../website/Site/img/slide1.jpg ") 50% 0 no-repeat fixed;
-height: 200px;
+height: 600px;
 margin: 0;
-padding: 200px 0 260px 0;
 background-size: cover;
 }
 
@@ -45,7 +44,7 @@ color: #333333;
 height: 300px;
 margin: 0 auto;
 overflow: hidden;
-padding: 200px 0;
+padding: 20px 0;
 }
 
 .PhotoCV figure {
