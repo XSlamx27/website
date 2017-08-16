@@ -34,6 +34,23 @@ margin: 0;
 background-size: cover;
 }
 
+.PhotoCV figure {
+border: 3px solid #46BFE8;
+border-radius: 78px;
+float: right;
+height: 150px;
+width: 150px;
+margin-top: 150px;
+margin-right: 100px;
+}
+	
+.PhotoCV img {
+border-radius: 75px;
+height: 150px;
+position: relative;
+width: 150px;
+}
+
 #slide1 h2 {
 color: #4D80FF;
 width: 50%;
@@ -41,6 +58,7 @@ margin-top: 180px;
 margin-left: 20px;
 position: absolute;
 }
+
 #slide1 h3{
 color: #4D80FF;
 width: 50%;
@@ -58,22 +76,7 @@ overflow: hidden;
 padding: 20px 0;
 }
 
-.PhotoCV figure {
-border: 3px solid #46BFE8;
-border-radius: 78px;
-float: right;
-height: 150px;
-width: 150px;
-margin-top: 150px;
-margin-right: 100px;
-	}
-	
-.PhotoCV img {
-border-radius: 75px;
-height: 150px;
-position: relative;
-width: 150px;
-}
+
 
 .exp,
 .etudes,
