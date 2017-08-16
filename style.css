@@ -78,6 +78,10 @@ margin: 0 auto;
 overflow: hidden;
 padding: 20px 0;
 }
+
+#slide2 li{
+	margin: 5px;
+}
 #exp {
 display: inline-block;
 float: left;
