@@ -75,12 +75,21 @@ margin: 0 auto;
 overflow: hidden;
 padding: 20px 0;
 }
-
-
-
-.exp,
-.etudes,
-.comp {
+#exp {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#etudes {
+	display:inline;
+	float: right;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#comp {
 	display:inline;
 	float: left;
 	position: relative;
