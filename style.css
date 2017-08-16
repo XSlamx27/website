@@ -102,10 +102,11 @@ padding: 20px 0 0 0;
 background-size: cover;
 }
 
-#slide3 h3{
+#slide3 h2{
 color: #fff;
 font-size: 25px; font-weight: bold;
 width: 50%
+display: inline;
 text-align: center;
 margin-top: 0px;
 }
