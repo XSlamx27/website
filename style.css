@@ -75,6 +75,8 @@ position: absolute;
     border-radius: 50%;
     border: 2px solid #b7b7b7;
     background: #46BFE8;
+    text-align:center;
+    text-color: #fff;
 }
 
 #slide2{
