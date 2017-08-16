@@ -30,7 +30,7 @@ margin-top: 7px;
 #slide1, #slide2{ width: 100%; }
 
 #slide1{
-background:url("../website/Site/img/slide1.jpg") 50% 0 no-repeat fixed;
+background-color: #46BFE8;
 height: 600px;
 margin: 0;
 background-size: cover;
@@ -61,7 +61,7 @@ width: 150px;
 }
 
 #slide3{
-background:url("../website/Site/img/test.jpg") 50% 0 no-repeat fixed;
+background-color: #46BFE8;
 height: 600px;
 padding: 170px 0 0 0;
 background-size: cover;
