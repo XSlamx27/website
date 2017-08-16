@@ -2,18 +2,16 @@
 #header {
 width: 100%;
 background-color: #b7b7b7;
-opacity:0.8;
 height: 25px;
 margin-top: 50px;
 position: absolute;
 }
 
 #nav { width: 410px; float: right; }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 25px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 25px; font-weight: bold; }
 #nav ul{
 list-style: none;
 display: inline;
-list-style: none;
 
 }
 #nav li{
@@ -22,7 +20,7 @@ padding-left: 51px;
 margin-top: 7px;
 
 }
-#nav li a { color: #fff; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; font-weight: bold; }
+#nav li a { color: #fff; font-size: 16px; text-decoration: none; font-weight: bold; }
 #nav li a.active { color: #fff; opacity:0.6; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:0.6;}
 
