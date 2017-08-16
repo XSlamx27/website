@@ -144,8 +144,29 @@ display: inline;
 text-align: center;
 margin-top: 0px;
 }
-#toggler{height:auto; background:#eee; border:1px solid #900; margin:1em;text-align:center}
-#toggler p{text-align:center;padding:0}
+#toggler {
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #46e8ba;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:14px 31px;
+	text-decoration:none;
+}
+#toggler:hover {
+	background-color:transparent;
+}
+#toggler:active {
+	position:relative;
+	top:1px;
+}
+
 
 #slide5{
 background-color: #46E8B9;
