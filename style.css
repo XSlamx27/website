@@ -70,13 +70,18 @@ margin-left: 20px;
 position: absolute;
 }
 .rond {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 2px solid #b7b7b7;
     background: #46BFE8;
     text-align:center;
     text-color: #fff;
+}
+#conteneur1{
+display: flex;
+align-content: space-around;
+flex-wrap: wrap;
 }
 
 #slide2{
