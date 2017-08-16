@@ -24,7 +24,7 @@ margin-top: 7px;
 #nav li a.active { color: #fff; opacity:0.6; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:0.6;}
 
-p, li, h2, h3, h4{
+p, li, h2, h3, h4, h5{
 color: #fff;
 }
 
