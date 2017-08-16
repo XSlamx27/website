@@ -69,11 +69,11 @@ margin-top: 220px;
 margin-left: 20px;
 position: absolute;
 }
-.rond{
-	#cercle {
+.rond {
     width: 40px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 50%;
+    border: 2px solid #b7b7b7;
     background: #46BFE8;
 }
 
