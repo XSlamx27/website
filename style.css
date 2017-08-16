@@ -149,15 +149,14 @@ margin-top: 0px;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
-	border:1px solid #46e8ba;
+	border:3px solid #46e8ba;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
 	font-size:17px;
 	font-weight:bold;
 	padding:14px 31px;
-	text-decoration:none;
+	margin: auto;
 }
 #toggler:hover {
 	background-color:transparent;
@@ -166,6 +165,7 @@ margin-top: 0px;
 	position:relative;
 	top:1px;
 }
+
 
 
 #slide5{
