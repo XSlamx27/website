@@ -135,6 +135,16 @@ background-color: #4DA3FF;
 height: 300px;
 padding: 20px 0;
 }
+
+#slide4 h2{
+color: #fff;
+font-size: 25px; font-weight: bold;
+width: 50%
+display: inline;
+text-align: center;
+margin-top: 0px;
+}
+
 #slide5{
 background-color: #46E8B9;
 height: 200px;
