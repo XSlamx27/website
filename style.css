@@ -157,6 +157,9 @@ margin-top: 0px;
 	font-weight:bold;
 	padding:14px 31px;
 	text-decoration: none;
+	position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
 }
 #toggler:hover {
 	background-color:transparent;
