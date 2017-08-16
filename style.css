@@ -76,17 +76,20 @@ overflow: hidden;
 padding: 20px 0;
 }
 #exp {
-	float: left;
+display: inline-block;
+float: left;
 	margin-left: 1%;
 	margin-right: 1%;
 }
 #etudes {
+	display: inline-block;
 	float: right;
-	position: absolute;
+	position: relative;
 	margin-left: 1%;
 	margin-right: 1%;
 }
 #comp {
+	display: block;
 	float: left;
 	margin-left: 1%;
 	margin-right: 1%;
