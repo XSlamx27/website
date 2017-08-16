@@ -94,7 +94,7 @@ padding: 20px 0;
 
 #slide3{
 background-color: #46E8B9;
-height: 600px;
+height: 400px;
 padding: 20px 0 0 0;
 background-size: cover;
 }
@@ -114,12 +114,11 @@ border: 2px solid #46BFE8;
 #slide4{
 background-color: #4DA3FF;
 height: 300px;
-padding: 200px 0;
+padding: 20px 0;
 }
 #slide5{
 background-color: #46E8B9;
 height: 200px;
 margin: 0 auto;
-padding: 250px 0;
-background-size: cover;
+padding: 20px 0;
 }
