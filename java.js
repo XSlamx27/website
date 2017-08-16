@@ -1,5 +1,13 @@
 $('#projet').hide();
 
-$('.clique').on('click', function() {
-  // execute the code here when .example-class is clicked.
+jQuery(document).ready(function()
+{
+
+$('#projet').hide();
+
+$'a#toggler').click(function()
+{
+$('#projet').toggle(400);
+return false;
+  });
 });
