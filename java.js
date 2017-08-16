@@ -4,8 +4,9 @@ jQuery(document).ready(function()
 
 $('#projet').hide();
 
-$'a#toggler').click(function()
-{
+$('#toggler').on('click', function()  {
+$('#projet').show();
+  });
 $('#projet').toggle(400);
 return false;
   });
