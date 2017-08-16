@@ -94,9 +94,17 @@ padding: 20px 0;
 
 #slide3{
 background-color: #46E8B9;
-height: 400px;
+height: 450px;
 padding: 20px 0 0 0;
 background-size: cover;
+}
+
+#slide3 h3{
+color: #fff;
+font-size: 25px; font-weight: bold;
+width: 50%
+text-align: center;
+margin-top: 0px;
 }
 
 #conteneur{
