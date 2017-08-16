@@ -34,14 +34,14 @@ margin: 0;
 background-size: cover;
 }
 
-h2 {
+#slide1 h2 {
 color: #4D80FF;
 width: 50%;
 margin-top: 180px;
 margin-left: 20px;
 position: absolute;
 }
-h3{
+#slide1 h3{
 color: #4D80FF;
 width: 50%;
 margin-top: 220px;
@@ -87,6 +87,7 @@ display: flex;
 align-content: space-around;
 flex-wrap: wrap;
 }
+
 .image{
 margin: auto;
 border: 2px solid #46BFE8;
