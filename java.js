@@ -1,4 +1,3 @@
-$('#projet').hide();
 
 jQuery(document).ready(function()
 {
