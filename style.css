@@ -131,8 +131,8 @@ background-size: cover;
 #slide3 h2{
 color: #004B8D;
 font-size: 25px; font-weight: bold;
-width: 50%
-margin: auto;
+display: inline;
+text-align: center;
 margin-top: 0px;
 }
 
@@ -160,9 +160,9 @@ margin-top: 80px;
 
 #slide4 h2{
 color: #fff;
-font-size: 25px; font-weight: bold;
-width: 50%
-margin: auto;
+font-weight: bold;
+display: inline;
+text-align: center;
 margin-top: 0px;
 }
 
