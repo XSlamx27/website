@@ -8,7 +8,7 @@ position: absolute;
 }
 
 #nav { width: 410px; float: right; }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 25px; font-weight: bold; }
+#logo a { color: #004B8D; text-decoration: none; float: left; font-size: 25px; font-weight: bold; }
 #nav ul{
 list-style: none;
 display: inline;
@@ -20,7 +20,7 @@ padding-left: 51px;
 margin-top: 7px;
 
 }
-#nav li a { color: #fff; font-size: 16px; text-decoration: none; font-weight: bold; }
+#nav li a { color: #004B8D; font-size: 16px; text-decoration: none; font-weight: bold; }
 #nav li a.active { color: #fff; opacity:0.6; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:0.6;}
 
@@ -31,14 +31,14 @@ color: #fff;
 #slide1, #slide2{ width: 100%; }
 
 #slide1{
-background-color: #46E8B9;
+background-color: #F3CF55;
 height: 600px;
 margin: 0;
 background-size: cover;
 }
 
 .PhotoCV figure {
-border: 3px solid #46BFE8;
+border: 3px solid #004B8D;
 border-radius: 78px;
 float: right;
 height: 150px;
@@ -55,7 +55,7 @@ width: 150px;
 }
 
 #slide1 h2 {
-color: #4D80FF;
+color: #004B8D;
 width: 50%;
 margin-top: 180px;
 margin-left: 20px;
@@ -63,32 +63,32 @@ position: absolute;
 }
 
 #slide1 h3{
-color: #4D80FF;
+color: #004B8D;
 width: 50%;
 margin-top: 220px;
 margin-left: 20px;
 position: absolute;
 }
 .rond {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid #b7b7b7;
-    background: #46BFE8;
-    text-align: center;
-    line-height: 90px;
-    color: #fff;
-    margin-top: 450px;
-    margin-left: auto;
-    line-height: 90px
-}
-#conteneur1{
-display: flex;
-align-items: flex-end;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 1px solid #b7b7b7;
+background: #004B8D;
+text-align: center;
+line-height: 90px;
+color: #fff;
+margin-top: 450px;
+margin-left: auto;
+line-height: 90px
 }
 
-#slide2{
-background-color: #4DA3FF;
+#conteneur1 {
+display: flex;
+}
+
+#slide2 {
+background-color: #004B8D;
 color: #333333;
 height: 600px;
 margin: 0 auto;
@@ -97,40 +97,41 @@ padding: 20px 0;
 }
 
 #slide2 li{
-	margin-left: 10px;
+margin-left: 10px;
 }
+
 #exp {
 display: inline-block;
 float: left;
-	margin-left: 1%;
-	margin-right: 1%;
+margin-left: 1%;
+margin-right: 1%;
 }
+
 #etudes {
-	display: inline-block;
-	float: right;
-	position: relative;
-	margin-left: 1%;
-	margin-right: 1%;
+display: inline-block;
+float: right;
+position: relative;
+margin-left: 1%;
+margin-right: 1%;
 }
+
 #comp {
-	display: block;
-	float: left;
-	margin-left: 1%;
-	margin-right: 1%;
+float: left;
+margin-left: 1%;
+margin-right: 1%;
 }
 
 #slide3{
-background-color: #46E8B9;
+background-color: #F3CF55;
 height: 450px;
 padding: 20px 0 0 0;
 background-size: cover;
 }
 
 #slide3 h2{
-color: #fff;
+color: #004B8D;
 font-size: 25px; font-weight: bold;
 width: 50%
-display: inline;
 text-align: center;
 margin-top: 0px;
 }
@@ -144,11 +145,11 @@ flex-wrap: wrap;
 .image{
 margin: auto;
 margin-top: 20px;
-border: 2px solid #46BFE8;
+border: 2px solid #004B8D;
 }
 
 #slide4{
-background-color: #4DA3FF;
+background-color: #004B8D;
 height: 300px;
 padding: 20px 0;
 }
@@ -161,43 +162,47 @@ margin-top: 80px;
 color: #fff;
 font-size: 25px; font-weight: bold;
 width: 50%
-display: inline;
 text-align: center;
 margin-top: 0px;
 }
+
 #toggler {
-	background-color:transparent;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	border:3px solid #46e8ba;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:17px;
-	font-weight:bold;
-	padding:14px 31px;
-	text-decoration: none;
-	position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+background-color:transparent;
+-moz-border-radius:28px;
+-webkit-border-radius:28px;
+border-radius:28px;
+border:3px solid #FFF;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-size:17px;
+font-weight:bold;
+padding:14px 31px;
+text-decoration: none;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
 }
+
 #toggler:hover {
-	background-color:transparent;
+background-color:transparent;
 }
+
 #toggler:active {
-	position:relative;
-	top:1px;
+position:relative;
+top:1px;
 }
 
 
 
 #slide5{
-background-color: #46E8B9;
+background-color: #F3CF55;
 height: 200px;
 margin: 0 auto;
 padding: 20px 0;
 }
+
 #slide5 p{
 font-size: 13px;
+color: #004B8D;
 }
