@@ -132,7 +132,7 @@ background-size: cover;
 color: #004B8D;
 font-size: 25px; font-weight: bold;
 width: 50%
-text-align: center;
+margin: auto;
 margin-top: 0px;
 }
 
@@ -162,7 +162,7 @@ margin-top: 80px;
 color: #fff;
 font-size: 25px; font-weight: bold;
 width: 50%
-text-align: center;
+margin: auto;
 margin-top: 0px;
 }
 
