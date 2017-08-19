@@ -126,14 +126,13 @@ background-color: #F3CF55;
 height: 450px;
 padding: 20px 0 0 0;
 background-size: cover;
+text-align: center;
 }
 
 #slide3 h2{
 color: #004B8D;
 font-size: 25px; font-weight: bold;
 display: inline;
-margin-left: auto;
-margin-right: auto;
 margin-top: 0px;
 }
 
@@ -153,6 +152,7 @@ border: 2px solid #004B8D;
 background-color: #004B8D;
 height: 300px;
 padding: 20px 0;
+text-align: center;
 }
 
 #slide4 p{
