@@ -132,7 +132,8 @@ background-size: cover;
 color: #004B8D;
 font-size: 25px; font-weight: bold;
 display: inline;
-text-align: center;
+margin-left: auto;
+margin-right: auto;
 margin-top: 0px;
 }
 
@@ -162,7 +163,8 @@ margin-top: 80px;
 color: #fff;
 font-weight: bold;
 display: inline;
-text-align: center;
+margin-left: auto;
+margin-right: auto;
 margin-top: 0px;
 }
 
@@ -180,17 +182,9 @@ font-weight:bold;
 padding:14px 31px;
 text-decoration: none;
 position: absolute;
+margin-top: 40px;
 left: 50%;
 transform: translateX(-50%);
-}
-
-#toggler:hover {
-background-color:transparent;
-}
-
-#toggler:active {
-position:relative;
-top:1px;
 }
 
 
