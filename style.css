@@ -2,7 +2,9 @@
 	min-height: 100vh;
 	border-bottom: 1px solid #dee2e6;
 }
-
+a{
+color: black;
+}
  ul{
 	list-style-type: none;
 }
