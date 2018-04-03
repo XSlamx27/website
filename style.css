@@ -1,202 +1,94 @@
- 
-#header {
-width: 100%;
-background-color: #b7b7b7;
-height: 25px;
-margin-top: 50px;
-position: absolute;
+ section {
+	min-height: 100vh;
+	border-bottom: 1px solid #dee2e6;
 }
 
-#nav { width: 410px; float: right; }
-#logo a { color: #004B8D; text-decoration: none; float: left; font-size: 25px; font-weight: bold; }
-#nav ul{
-list-style: none;
-display: inline;
-
+ ul{
+	list-style-type: none;
 }
-#nav li{
-float: left;
-padding-left: 51px;
-margin-top: 7px;
-
+.half{
+	width: 50%;
 }
-#nav li a { color: #004B8D; font-size: 16px; text-decoration: none; font-weight: bold; }
-#nav li a.active { color: #fff; opacity:0.6; border-bottom: 2px solid #fff; }
-#nav li a:hover { color: #fff; opacity:0.6;}
+/*-------Nav-----*/
 
-p, li, h2, h3, h4, h5{
-color: #fff;
+.nav-link{
+	color: rgba(255,255,255,.5);
+	padding:0;
 }
 
-#slide1, #slide2{ width: 100%; }
-
-#slide1{
-background-color: #F3CF55;
-height: 600px;
-margin: 0;
-background-size: cover;
+.nav-link:hover {
+  color: rgba(255,255,255,.75);
+  text-decoration: none;
+}
+.nav-item{
+	padding:0.5rem;
+}
+.active {
+  color: #fff;
+  text-decoration: none;
+}
+#contact {
+	position: absolute;
+	bottom: 3rem;
+}
+/*----skills-------*/
+#skillbars > li{
+	padding-bottom: 0.5rem;
+}
+.progress-bar-animated.in-view{
+	-webkit-animation: animate 3s;
+    animation: animate 3s;
+}
+@-webkit-keyframes animate{
+    0% { width: 0; }
+}
+@keyframes animate{
+    0% { width: 0; }
 }
 
-.PhotoCV figure {
-border: 3px solid #004B8D;
-border-radius: 78px;
-float: right;
-height: 150px;
-width: 150px;
-margin-top: 150px;
-margin-right: 100px;
-}
-	
-.PhotoCV img {
-border-radius: 75px;
-height: 150px;
-position: relative;
-width: 150px;
+/*-----Timeline---*/
+#fil
+{
+	width:5px;
+	min-height: 95%;
+	z-index: -1;
+	top:0;
 }
 
-#slide1 h2 {
-color: #004B8D;
-width: 50%;
-margin-top: 180px;
-margin-left: 20px;
-position: absolute;
+#progress
+{
+	width:20px;
+	height: 45px;
+	position: sticky;
+	bottom:0;
+	background-color: white;
+	z-index: 2000;
+}
+.slide-in-left.in-view {
+  animation-duration: 2s;
+  animation-name: slideinleft;
 }
 
-#slide1 h3{
-color: #004B8D;
-width: 50%;
-margin-top: 220px;
-margin-left: 20px;
-position: absolute;
+@keyframes slideinleft {
+  from {
+    margin-right: 100px;
+  }
+
+  to {
+    margin-right: 0;
+  }
 }
-.rond {
-width: 100px;
-height: 100px;
-border-radius: 50%;
-border: 1px solid #b7b7b7;
-background: #004B8D;
-text-align: center;
-line-height: 90px;
-color: #fff;
-margin-top: 450px;
-margin-left: auto;
-line-height: 90px
+.slide-in-right.in-view {
+  animation-duration: 2s;
+  animation-name: slideinright;
 }
 
-#conteneur1 {
-display: flex;
-}
+@keyframes slideinright {
+  from {
+    margin-left: 100px;
+  }
 
-#slide2 {
-background-color: #004B8D;
-color: #333333;
-height: 600px;
-margin: 0 auto;
-overflow: hidden;
-padding: 20px 0;
-}
-
-#slide2 li{
-margin-left: 10px;
-}
-
-#exp {
-display: inline-block;
-float: left;
-margin-left: 1%;
-margin-right: 1%;
-}
-
-#etudes {
-display: inline-block;
-float: right;
-position: relative;
-margin-left: 1%;
-margin-right: 1%;
-}
-
-#comp {
-float: left;
-margin-left: 1%;
-margin-right: 1%;
-}
-
-#slide3{
-background-color: #F3CF55;
-height: 450px;
-padding: 20px 0 0 0;
-background-size: cover;
-text-align: center;
-}
-
-#slide3 h2{
-color: #004B8D;
-font-size: 25px; font-weight: bold;
-display: inline;
-margin-top: 0px;
-}
-
-#conteneur{
-display: flex;
-align-content: space-around;
-flex-wrap: wrap;
-}
-
-.image{
-margin: auto;
-margin-top: 20px;
-border: 2px solid #004B8D;
-}
-
-#slide4{
-background-color: #004B8D;
-height: 300px;
-padding: 20px 0;
-text-align: center;
-}
-
-#slide4 p{
-margin-top: 80px;	
-}
-
-#slide4 h2{
-color: #fff;
-font-weight: bold;
-display: inline;
-margin-left: auto;
-margin-right: auto;
-margin-top: 0px;
-}
-
-#toggler {
-background-color:transparent;
--moz-border-radius:28px;
--webkit-border-radius:28px;
-border-radius:28px;
-border:1px solid #FFF;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-size:15px;
-font-weight:bold;
-padding:7px 18px;
-text-decoration: none;
-position: absolute;
-margin-top: 40px;
-left: 50%;
-transform: translateX(-50%);
-}
-
-
-
-#slide5{
-background-color: #F3CF55;
-height: 100px;
-margin: 0 auto;
-padding: 20px 0;
-}
-
-#slide5 p{
-font-size: 13px;
-color: #004B8D;
+  to {
+    margin-left: 0;
+  }
 }
