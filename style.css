@@ -30,6 +30,7 @@
 #contact {
 	position: absolute;
 	bottom: 3rem;
+  width: 100%;
 }
 /*----skills-------*/
 #skillbars > li{
