@@ -1,137 +1,287 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-   
-    <title>Froger Frédéric</title>
-        
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Froger Frédéric - Développeur web jr.</title>
   </head>
-<body>
-
-
-<header id="header">
-<div class="content">
-<div id="logo"><a> Welcome </a></div>
-  
-        <nav id="nav">
-                        <ul>
- <li><a href="#slide2" title="Next Section">CV</a></li>
- <li><a href="#slide3" title="Next Section">Réalisations</a></li>
- <li><a href="#slide4" title="Next Section">Projets</a></li>
-                         </ul>
-	</nav>                         
+  <body data-spy="scroll" data-target="#navspy" data-offset="50">
+  	<div class="main container-fluid">
+    	<div class="row">
+<!--     		<div id="side" class="col-md-2 bg-warning text-white position-fixed">
+    			<div id="sidebar" class="text-center">
+    			<nav>
+    			<ul>
+    				<li><a href="#presentation">Présentation</a></li>
+    				<li><a href="#etudes">Etudes</a></li>
+    				<li><a href="#pro">Activités professionnelles</a></li>
+    				<li><a href="#projets">Réalisations</a></li>
+    				<li><a href="#perso">Perso</a></li>
+    			</ul>
+    			</nav>
+    		</div>
+    		</div> -->
+            <div id="side" class="col-md-4 col-lg-2 bg-danger m-0">
+            <nav id="navspy" class="navbar mt-4 sticky-top text-white">
+                <ul class="navbar-nav py-5 text-center text-uppercase">
+                    <li class="nav-item"><a class="mb-2" href="#presentation"><img src="face.jpg" height="150" width="150" class="rounded-circle border border-white"></a></li>
+                    <li class="nav-item "><a class=" nav-link" href="#parcours">Parcours</a></li>    
+                    <li class="nav-item "><a class=" nav-link" href="#projets">Réalisations</a></li>
+                    <li class="nav-item "><a class=" nav-link" href="#perso">Plus</a></li>
+                </ul>
+            </nav>
+            <div id="contact" class="">
+                <i class="fas fa-print fa-2x"></i>
+                <i class="fas fa-envelope fa-2x"></i>
+                <i class="fas fa-download fa-2x"></i></div>
+        </div>
+    		<div id="content-area" class="col-md-8 col-lg-10">
+    			<section id="presentation" class="part">
+                    <div class="px-5 pt-5 pb-1">
+    				<h3 class=" display-4 mb-0 pt-5 pl-4 text-uppercase">Froger Frédéric</h3>
+                <h5 class="text-muted pl-4 text-uppercase mt-0">Développeur web junior - <span class="text-danger">Montpellier (34) - froger.fred@gmail.com</span></h5>
+                <p class="text-muted pl-4 mt-4">Après un master dans le domaine de l'entrepreneuriat et plusieurs années d'éxploration à la fois personnelles et professionnelles j'ai décidé de me reconvertir dans un domaine évolutif et à mon sens attractif : le web !  </p>
+                      </div>  
+                      <div class="mx-auto half"> 
+                        <ul id="skillbars" class="text-center">
+                                                        <li><span class="text-center fab fa-html5 fa-2x"></span><div class="progress ">
+                              <div class="progress-bar progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span>HTML</span></div>
+                            </div></li>
+                                                        <li><i class="fab fa-css3-alt fa-2x"></i><div class="progress">
+                              <div class="progress-bar progress-bar-animated bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span>CSS</span></div>
+                            </div></li>
+                                                        <li><i class="fab fa-wordpress fa-2x"></i><div class="progress">
+                              <div class="progress-bar progress-bar-animated bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span>Wordpress</span></div>
+                            </div></li>
+                                                        <li><i class="fab fa-php fa-2x"></i><div class="progress">
+                              <div class="progress-bar progress-bar-animated bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><span>PHP </span></div>
+                            </div></li>
+                                                        <li><i class="fab fa-js-square fa-2x"></i><div class="progress ">
+                              <div class="progress-bar progress-bar-animated bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span>JavaScript </span></div>
+                            </div></li>
+                                                        <li><img src="sf.png"><div class="progress ">
+                              <div class="progress-bar progress-bar-animated bg-info" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><span>Symfony </span></div>
+                            </div></li>  
+                        </ul>
                     </div>
-    </header>
-     
-       <div id="slide1">
- 	 <div class="PhotoCV" >
-	
- <figure>
-         <img src="../website/Site/img/face.jpg" alt="Myself">
-</figure>
-	 </div>
-	 
-	   <H2>Frédéric Froger</H2>
-     <h3> Candidat à un poste de Développeur Java J2EE</h3>
-	       <div id="conteneur1">
-	<div class="rond">Spontanéité</div>
-	<div class="rond">Curiosité</div>
-	<div class="rond">Adaptation</div> 
-	<div class="rond">Autonomie</div> 
-	       </div>
- </div> 
-	
-	
- <div id="slide2">
-     <div class="CV">
+    			</section>
+    			
+    			<section id="parcours" class=" part">
+    				<h2 class="text-center p-3"> Mon parcours</h2>
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="card mb-4 animation-element slide-in-left etudes">
+                          <div class="card-header">
+                           2017-2018 <i class="text-success fas fa-graduation-cap fa-pull-right"></i>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">WebForce 3 - Montferrier le Lez</h5>
+                            <p class="card-text"><span class="text-success">Formation integrateur/développeur web</span><br>
+                            Découverte et apprentissage des languages web.<br>
+                            HTML/CSS, Bootstrap, Javascript, PHP, Wordpress, Symfony 4.</p>
+                          </div>
+                        </div>
+                        <div class="card mt-5 mb-5 animation-element slide-in-left">
+                      <div class="card-header">
+                        2015 <i class=" text-danger fas fa-briefcase fa-pull-right"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">@tmosphères</h5>
+                        <p class="card-text"><span class="text-danger">Animateur commercial</span><br>
+                            Présentation et vente de produits multimédias pour le compte de la marque Acer.</p>
+                      </div>
+                    </div>
+                    <div class="card mt-5 mb-4 animation-element slide-in-left">
+                      <div class="card-header">
+                        2013 <i class="text-danger fas fa-briefcase fa-pull-right"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Evoluciel (Tosend)</h5>
+                        <p class="card-text"><span class="text-danger">Stagiaire</span><br>
+                            Refonte des sites Evoluciel, Evoluciel immobilier et Tosend<br>
+                        Développement d'une offre e-mailing (via adwords)</p>
+                      </div>
+                    </div>
+                    <div class="card mt-5 mb-4 animation-element slide-in-left etudes">
+                      <div class="card-header ">
+                        2008-2012 <i class=" text-success fas fa-graduation-cap fa-pull-right"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Université de Rouen</h5>
+                        <p class="card-text"><span class="text-success">Master Sciences du Management</span><br>
+                        Comptabilité, économie, droit, marketing, commerce (Bac +4)<br>
+                        Licence Administration, Economie et Social (Bac+3)</p>
+                      </div>
+                    </div>
+                    </div>
+                        <div class="col-2 text-center">
+                            <div id="fil" class="bg-danger mx-auto mb-0">
+                            </div>
+                             <!--   <div id="fil-icons">
+                            <i class="mt-2 bg-success rounded-circle fas fa-graduation-cap fa-2x"></i>
+                            <i class=" my-auto bg-danger rounded-circle fas fa-briefcase fa-2x"></i>
+                            <i class=" mb-2 bg-success rounded-circle fas fa-graduation-cap fa-2x"></i>     
+                            </div> -->
+                            <div id="progress" class="mx-auto"></div> 
+                             
+                        </div>
 
-		 <div id="exp">
-		<h4>EXPERIENCES ET ACTIVITÉS PROFESSIONNELLES </h4 
-		<ul>
-			<li>SD Motor  - Collaborateur - Aide à la création/achat-revente-customisation de motos</li>
-			<li>Téléperformance Montpellier - Conseiller clientèle - Gestion relation client et impayés</li>
-			<li>Agence @tmosphères - Animateur commercial - Démonstration et vente de produits ACER</li>
-			<li>Xerox  - Attaché Commercial - Vende de produits bureautique</li>
-			<li><a href="https://evoluciel.com">Evoluciel</a> - Stagiaire - Refonte site web et développement d'une offre <a href="https://tosend-emailing.com">e-mailing</a></li>
-			</ul>
-		</div>
-			<div id="etudes">
-		 <h4> ETUDES </h4> 
-<p>MASTER 2 ENTREPRENEURIAT<br />
-Business modèle, développement et gestion de la PME<br />
-	IAE Grenoble (38)</p>
-<p>MASTER 1 SCIENCES DU MANAGEMENT<br />
-Gestion, marketing et commerce (Bac +4)<br />
-	IAE de Rouen (76)</p>
-<p>LICENCE ADMINISTRATION, ÉCONOMIE ET SOCIALE <br />
-Comptabilité, économie, droit, marketing, commerce (Bac +3)<br />
-	Faculté de Rouen (76)</p>
-<p>BACCALAUREAT GENERAL SCIENTIFIQUE </p>
-	     </div>	
-			 <div id="comp">
-		 <h4> COMPETENCES ACQUISES </h4> 
-<p>Suivi et réalisation de projets commandités web/entrepreneuriaux<br />
-Maîtrise des techniques de communication/Marketing/Webmarketing<br />
-Vente B to B / B to C<br />
-Prise d'appels et gestion de dossiers </p>
-		 
-		 <h4>INFORMATIQUE </h4>
-<p>Maîtrise du Pack office : Excel, Word, Powerpoint<br />
-Photoshop : notions (++)<br />
-Internet : Wordpress, clients mails, FTP, SEO</p>
-			 </div>
-	 
-  </div> 
- </div> 
-	
- <div id="slide3">
- <div class="content">
-	 <h2>Quelques réalisations</h2>
- <div id="conteneur">
-	<div class="image">
-		
-		     <a href="../website/Site/img/img1_recto.jpg"><img src="../website/Site/img/mini_img1_recto.jpg" alt="Projet pain d'auguste" title="Cliquez pour agrandir" /></a>
-	 </div><div class="image">
-		     <a href="../website/Site/img/img1_verso.jpg"><img src="../website/Site/img/mini_img1_verso.jpg" alt="Projet pain d'auguste" title="Cliquez pour agrandir" /></a>
-	 </div><div class="image">
-		     <a href="../website/Site/img/img2.jpg"><img src="../website/Site/img/mini_img2.jpg" alt="Projet pain d'auguste" title="Cliquez pour agrandir" /></a>
-		     </div><div class="image">
-	 <a href="../website/Site/img/img3.jpg"><img src="../website/Site/img/mini_img3.jpg" alt="Flyer Soirée Kitsch" title="Cliquez pour agrandir" /></a>
-	 </div><div class="image">
-		     <a href="http://www.tosend-emailing.com/"><img src="../website/Site/img/mini_img5.jpg" target="_blank" alt="ToSend" title="Découvrir Tosend" /></a>
-		 </div><div class="image">
-    <a href="https://www.flickr.com/photos/xslamx27/"><img src="http://www.flickriver.com/badge/user/all/interesting/shuffle/medium-horiz/ffffff/333333/49301845@N05.jpg" alt="XSlamx27 - View my most interesting photos on Flickriver" title="XSlamx27 - View my most interesting photos on Flickriver"/></a>
-	 </div>
-	 </div>
- </div> 
- </div> 
- <div id="slide4">
- <div class="content">
-	   <h2>Et après ? </h2>
-	 		 <a href="#" id="toggler">En savoir plus...</a>
-	<div id="projet">
-	 <p>Mon objectif est d'intégrer un programme de POE (Préparation Opérationnelle à l'Emploi) au sein de l'école numérique UP TO afin de me former au poste de développeur Java J2EE et accéder à ce poste dans l'entreprise CAPGEMINI.<br />
-		 Je suis motivé par ce challenge car j'arrive à une période "charnière" de ma vie où je me pose de nombreuse questions quant à mon avenir personnel et professionnel. A ce sujet justement je me rends compte que mes différents projets entrepreneuriaux ne me permettent pas de vivre décemment et relèvent soit d'une simple passion, soit d'un renfort auprès de mes proches qui se lancent.<br />
-		 Je souhaite donc me reconvertir dans une branche où je serai à mon aise : le numérique. J'ai toujours été attiré par les nouvelles technologies, par internet, j'ai toujours été la personne sollicitée lors de problèmes, pannes, questionnement, que ce soit dans la vie pro ou perso.<br />
-		 Cette formation représente une réelle opportunité pour moi pour deux raisons : je vais découvrir et apprendre un métier, et qui plus est dans une structure qui me permettra d'évoluer car je suis quelqu'un de pro-actif et j'ai ce besoin d'aller de l'avant, d'évoluer. Et à mon sens quoi de mieux qu'une entité aussi importante que CAPGEMINI ?<br />
-		 J'espère donc par la suite évoluer sur un poste de chargé de projet car ce poste concentre plusieurs qualités d'organisation et de responsabilité que je pense déjà posséder. </p>
-	 </div>
-   </div> 
- </div> 
-	
-	<div id="slide5">
- <div class="content">
- <div class="Realisation">
-	 <p>Réalisation </br>
-	 Ce site a été réalisé dans le but de montrer ma volonté et détermination à entrer dans le milieu du web. 
-	 En quelques jours seulement j'ai fait de mon mieux pour créer un site one-page me permettant de mettre en ligne mon CV ainsi qu'un portfolio représentant les projets que j'ai mené jusqu'à présent.<br />
-	 Au début basé sur wordpress j'ai vite été limité par les brides imposées par la version gratuite. Un fastidieux passage sur github et la recherche de tutos m'ont permis d'avancer un peu. <br /> 
-	 	 Le résultat demande encore certaines optimisations que je vais tenter d'apporter dans les jours qui viennent.
-	 </p>
-	 
-<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-<script src='java.js'></script>
+                    <div class="col-5">
+                        <div class="card mb-4 animation-element slide-in-right">
+                      <div class="card-header text-right">
+                        2014-2018 <i class=" text-danger fas fa-briefcase fa-pull-left"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">SD motor</h5>
+                        <p class="card-text"><span class="text-danger">Collaborateur indépendant</span><br>
+                            Aide à la création et au fonctionnement de l'entreprise.<br>
+                        Activité d'achat-revente de deux roues et accessoires.</p>
 
-</body>
+                      </div>
+                        </div>
+                            <div class="card mb-5 animation-element slide-in-right ">
+                          <div class="card-header text-right">
+                            2016 <i class="text-danger fas fa-briefcase fa-pull-left"></i>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Téléperformance Montpellier</h5>
+                            <p class="card-text"><span class="text-danger">Téléconseiller</span><br>
+                                Gestion de la relation client et du recouvrement pour un opérateur téléphonique.<br>
+                            Respect des objectifs quali et quantitatifs.</p>
+
+                          </div>
+                        </div>
+                        <div class="card mb-4 animation-element slide-in-right ">
+                      <div class="card-header text-right">
+                        2014 <i class=" text-danger fas fa-briefcase fa-pull-left"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Xerox</h5>
+                        <p class="card-text"><span class="text-danger">Attaché commercial</span><br>
+                            Prospection et fidélisation dans la vente de produits bureautique.</p>
+                      </div>
+                    </div>
+                      <div class="card animation-element slide-in-right">
+                      <div class="card-header text-right">
+                        2013 <i class="text-success fas fa-graduation-cap fa-pull-left"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">IAE de Grenoble</h5>
+                        <p class="card-text"><span class="text-success">Master II Entrepreneuriat et Conseil aux PME</span><br>
+                        Business model, développement et gestion de la PME (Bac +5)<br>
+                        Réalisations de projets commandités et projets perso</p>
+                      </div>
+                    </div>
+                     </div>
+                 </div>                      
+    			</section>    			
+    			<section id="projets" class="part">
+    				<h2 class="text-center p-3">Réalisations</h2>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="img-thumbnail">
+                            <img src="lamaisonducafe.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                              <p>La Maison du Café<br>
+                              HTML/CSS/JQuery</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="img-thumbnail">
+                          <a href="http://www.plusun.maximeblache.fr/plusun/public/evenements" target="blank">
+                            <img src="plusun.png" alt="Nature" style="width:100%">
+                            </a>
+                            <div class="caption">
+                              <p>Plus un <br>
+                              Symfony 4.0/MDB</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="img-thumbnail">
+                          <a href="fandepain.png">
+                            <img src="fandepain.png" alt="Fjords" style="width:100%">
+                            </a>
+                            <div class="caption">
+                              <p>Fan de Pain<br>
+                              Thème perso Wordpress/PHP</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+    			</section>
+    			
+    			<section id="perso" class="">
+    				<h2 class="text-center p-3">En savoir plus</h2>
+
+                    <div class="m-4 p-2 bg-danger text-light rounded">  
+                        <div id="toggle" class="d-flex justify-content-around flex-wrap p-3">
+                            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#qualites" aria-expanded="false" aria-controls="qualites">Mes qualités</button>
+                            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#competences" aria-expanded="false" aria-controls="competences">Mes compétences</button>
+                            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#loisirs" aria-expanded="false" aria-contdarkrols="loisirs">Mes loisirs</button>
+                        </div>
+                        <div id="qualites" class="collapse">
+                        <div class="d-flex justify-content-around p-1">
+                            <button type="button" class="btn btn-light ">Spontanéité</button>
+                            <button type="button" class="btn btn-light ">Curiosité</button>
+                            <button type="button" class="btn btn-light ">Autonomie</button>
+                            <button type="button" class="btn btn-light ">Adaptation</button>
+                        </div>
+                    </div>
+
+                    <div id="competences" class="collapse">
+                        <div id="competences" class="d-flex justify-content-around flex-wrap p-1">
+<button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title="Niveau B1/B2">
+Anglais
+</button>
+<button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title="Notions">
+Espagnol
+</button>
+<button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title="Ecoute active">
+Gestion de la relation client
+</button>
+<button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title="B2B/B2C">
+Vente
+</button>
+<button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title="Flyers/logos">
+Suite Adobe
+</button>
+<button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title="C2i">
+Pack Office
+</button>
+<button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title="Accompagnement et création">
+Entrepreneuriat
+</button>
+                    </div>
+                </div>
+                    <div id="loisirs" class="collapse">
+                    <div class="d-flex justify-content-around flex-wrap p-1">
+                    <button type="button" class="btn btn-light btn" data-toggle="tooltip" data-placement="bottom" title="Plus de 10 ans">Handball</button>
+                    <a href="https://www.flickr.com/photos/xslamx27/" target="blank"><button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="bottom" title='Cliquez'>Photographie</button></a>
+                    <button type="button" class="btn btn-light btn" data-toggle="tooltip" data-placement="bottom" title="Rénovation/Réparation">Mécanique</button>
+                    <button type="button" class="btn btn-light btn" data-toggle="tooltip" data-placement="bottom" title="balade/course">Moto</button>
+ 
+                    </div>
+                </div>
+
+            </div>
+
+    			</section>
+    			
+    		</div>
+    	</div>
+    </div>
+    <script
+     src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
