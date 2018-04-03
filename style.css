@@ -2,8 +2,8 @@
 	min-height: 100vh;
 	border-bottom: 1px solid #dee2e6;
 }
-a{
-color: black;
+a {
+  color: black;
 }
  ul{
 	list-style-type: none;
@@ -31,8 +31,8 @@ color: black;
 }
 #contact {
 	position: absolute;
-	bottom: 3rem;
-  width: 100%;
+	bottom: 1rem;
+  width: 50%;
 }
 /*----skills-------*/
 #skillbars > li{
