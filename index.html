@@ -9,39 +9,41 @@
     <title>Froger Frédéric - Développeur web jr.</title>
   </head>
   <body data-spy="scroll" data-target="#navspy" data-offset="50">
-  	<div class="main container-fluid">
-    	<div class="row">
-<!--     		<div id="side" class="col-md-2 bg-warning text-white position-fixed">
-    			<div id="sidebar" class="text-center">
-    			<nav>
-    			<ul>
-    				<li><a href="#presentation">Présentation</a></li>
-    				<li><a href="#etudes">Etudes</a></li>
-    				<li><a href="#pro">Activités professionnelles</a></li>
-    				<li><a href="#projets">Réalisations</a></li>
-    				<li><a href="#perso">Perso</a></li>
-    			</ul>
-    			</nav>
-    		</div>
-    		</div> -->
-            <div id="side" class="col-md-4 col-lg-2 bg-danger m-0">
-            <nav id="navspy" class="navbar mt-4 sticky-top text-white">
+    <div class="main container-fluid">
+        <div class="row">
+            <div id="side" class="col-lg-2 bg-danger m-0">
+              <!-- Nav pour ecrans larges -->
+            <nav id="navspy" class="navbar mt-4 sticky-top text-white d-none d-lg-block">
                 <ul class="navbar-nav py-5 text-center text-uppercase">
-                    <li class="nav-item"><a class="mb-2" href="#presentation"><img src="face.jpg" height="150" width="150" class="rounded-circle border border-white"></a></li>
+                    <li class="nav-item"><a href="#presentation"><img src="face.jpg" id="avatar" class="mb-2 img-fluid rounded-circle border border-white"></a></li>
                     <li class="nav-item "><a class=" nav-link" href="#parcours">Parcours</a></li>    
                     <li class="nav-item "><a class=" nav-link" href="#projets">Réalisations</a></li>
                     <li class="nav-item "><a class=" nav-link" href="#perso">Plus</a></li>
                 </ul>
             </nav>
-            <div id="contact" class="text-center mx-auto">
+            <!-- Nav pour md -->
+             <nav id="navspy" class="navbar sticky-top text-white d-block d-md-block d-lg-none">
+              <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#NavCollapse" aria-expanded="false" aria-controls="collapseExample">Menu</button>
+              <div id="NavCollapse" class="collapse">
+                <ul class="navbar-nav py-5 text-center text-uppercase">
+                    <li class="nav-item"><a href="#presentation"><img src="face.jpg" id="avatar" class="mb-2 img-fluid rounded-circle border border-white"></a></li>
+                    <li class="nav-item "><a class=" nav-link" href="#parcours">Parcours</a></li>    
+                    <li class="nav-item "><a class=" nav-link" href="#projets">Réalisations</a></li>
+                    <li class="nav-item "><a class=" nav-link" href="#perso">Plus</a></li>
+                </ul>
+              </div>
+            </nav>
+
+
+            <div id="contact" class="d-none d-lg-block">
               <a href="mailto:froger.fred@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
               <a href="cvfrogerfrederic.pdf"><i class="fas fa-download fa-2x pl-2"></i></a>
               </div>
         </div>
-    		<div id="content-area" class="col-md-8 col-lg-10">
-    			<section id="presentation" class="part">
+            <div id="content-area" class="col-lg-10">
+                <section id="presentation" class="part">
                     <div class="px-5 pt-5 pb-1">
-    				<h3 class=" display-4 mb-0 pt-5 pl-4 text-uppercase">Froger Frédéric</h3>
+                    <h3 class=" display-4 mb-0 pt-5 pl-4 text-uppercase">Froger Frédéric</h3>
                 <h5 class="text-muted pl-4 text-uppercase mt-0">Développeur web junior - <span class="text-danger">Montpellier (34) - froger.fred@gmail.com</span></h5>
                 <p class="text-muted pl-4 mt-4">Après un master dans le domaine de l'entrepreneuriat et plusieurs années d'éxploration à la fois personnelles et professionnelles j'ai décidé de me reconvertir dans un domaine évolutif et à mon sens attractif : le web !  </p>
                       </div>  
@@ -67,12 +69,12 @@
                             </div></li>  
                         </ul>
                     </div>
-    			</section>
-    			
-    			<section id="parcours" class=" part">
-    				<h2 class="text-center p-3"> Mon parcours</h2>
+                </section>
+                
+                <section id="parcours" class=" part">
+                    <h2 class="text-center p-3"> Mon parcours</h2>
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-md-5">
                             <div class="card mb-4 animation-element slide-in-left etudes">
                           <div class="card-header">
                            2017-2018 <i class="text-success fas fa-graduation-cap fa-pull-right"></i>
@@ -117,19 +119,19 @@
                       </div>
                     </div>
                     </div>
-                        <div class="col-2 text-center">
-                            <div id="fil" class="bg-danger mx-auto mb-0">
+                        <div class="col-md-2 text-center">
+                            <div id="fil" class="d-none d-sm-none d-md-block bg-danger mx-auto mb-0">
                             </div>
                              <!--   <div id="fil-icons">
                             <i class="mt-2 bg-success rounded-circle fas fa-graduation-cap fa-2x"></i>
                             <i class=" my-auto bg-danger rounded-circle fas fa-briefcase fa-2x"></i>
                             <i class=" mb-2 bg-success rounded-circle fas fa-graduation-cap fa-2x"></i>     
                             </div> -->
-                            <div id="progress" class="mx-auto"></div> 
+                            <div id="progress" class=" d-none d-sm-none d-md-block mx-auto"></div> 
                              
                         </div>
 
-                    <div class="col-5">
+                    <div class="col-md-5">
                         <div class="card mb-4 animation-element slide-in-right">
                       <div class="card-header text-right">
                         2014-2018 <i class=" text-danger fas fa-briefcase fa-pull-left"></i>
@@ -177,9 +179,9 @@
                     </div>
                      </div>
                  </div>                      
-    			</section>    			
-    			<section id="projets" class="part">
-    				<h2 class="text-center p-3">Réalisations</h2>
+                </section>              
+                <section id="projets" class="part">
+                    <h2 class="text-center p-3">Réalisations</h2>
                     <div class="row">
                       <div class="col-md-4">
                         <div class="img-thumbnail">
@@ -216,10 +218,10 @@
                         </div>
                       </div>
                     </div>
-    			</section>
-    			
-    			<section id="perso" class="">
-    				<h2 class="text-center p-3">En savoir plus</h2>
+                </section>
+                
+                <section id="perso" class="">
+                    <h2 class="text-center p-3">En savoir plus</h2>
 
                     <div class="m-4 p-2 bg-danger text-light rounded">  
                         <div id="toggle" class="d-flex justify-content-around flex-wrap p-3">
@@ -270,15 +272,16 @@ Entrepreneuriat
  
                     </div>
                 </div>
-
             </div>
-            <div class=" mt-5">
-            <p>Site en cours de finalisation, merci de votre compréhension.</p>
+                </section>
+                
+            </div>
         </div>
-    			</section>
-    			
-    		</div>
-    	</div>
+        <footer class="d-block d-md-block d-lg-none bg-danger text-center pt-2">
+          <a href="mailto:froger.fred@gmail.com"><i class="fas fa-envelope"></i></a>
+              <a href="cvfrogerfrederic.pdf"><i class="fas fa-download "></i></a>
+              <p>Site en cours de finalisation, merci de votre compréhension.</p>
+        </footer>
     </div>
     <script
      src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script> 
