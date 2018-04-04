@@ -1,6 +1,6 @@
  section {
-	min-height: 100vh;
-	border-bottom: 1px solid #dee2e6;
+  min-height: 100vh;
+  border-bottom: 1px solid #dee2e6;
 }
 a {
   color: black;
@@ -8,6 +8,7 @@ a {
  ul{
 	list-style-type: none;
 }
+
 .half{
 	width: 50%;
 }
@@ -33,6 +34,7 @@ a {
 	position: absolute;
 	bottom: 1rem;
   width: 50%;
+  margin-left:25%;
 }
 /*----skills-------*/
 #skillbars > li{
