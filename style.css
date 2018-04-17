@@ -13,7 +13,9 @@ a {
 	width: 50%;
 }
 /*-------Nav-----*/
-
+#avatar {
+	border: 3px solid white;
+}
 .nav-link{
 	color: rgba(255,255,255,.5);
 	padding:0;
